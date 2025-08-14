@@ -29,31 +29,31 @@ LinkedIn Post → A short daily reflection to document progress
 
 This section shows the syntax for each method I’ve covered so far. I’ll keep updating it as I explore more.
 
-# forEach()
+ forEach()
 array.forEach((element, index, array) => {
   // action to perform on each element
 });
 
-# map()
+ map()
 const newArray = array.map((element, index, array) => {
   // logic here
   return transformedElement;
 });
 
-# filter()
+ filter()
 const filteredArray = array.filter((element, index, array) => {
   return condition; // true to keep the element
 });
 
-# concat()
+ concat()
 const mergedArray = array1.concat(array2, value1, value2 /* ...more */);
 
-# find()
+ find()
 const foundElement = array.find((element, index, array) => {
   return condition;
 });
 
-# findIndex()
+ findIndex()
 const index = array.findIndex((element, index, array) => {
   return condition;
 });
