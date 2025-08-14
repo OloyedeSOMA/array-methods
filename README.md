@@ -65,7 +65,7 @@ const index = array.findIndex((element, index, array) => {
 
 🎥 YouTube Playlist – JavaScript Array Methods → [Watch Here](https://youtu.be/RVxuGCWZ_8E?si=2uzjoWAjG9IW4FbK)
 
-💼 Follow My Progress on LinkedIn → [My LinkedIn Profile](www.linkedin.com/in/muhammed-o-012277329)
+💼 Follow My Progress on LinkedIn → [My LinkedIn Profile](https://www.linkedin.com/in/muhammed-o-012277329/)
 
 🤝 Invitation
 
