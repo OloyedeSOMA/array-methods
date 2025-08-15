@@ -58,6 +58,34 @@ const index = array.findIndex((element, index, array) => {
   return condition;
 });
 
+indexOf()
+
+const position = array.indexOf(searchElement, fromIndex);
+
+
+lastIndexOf()
+
+const position = array.lastIndexOf(searchElement, fromIndex);
+
+
+some()
+
+const hasMatch = array.some((element, index, array) => {
+  return condition; // true if at least one element passes
+});
+
+
+every()
+
+const allMatch = array.every((element, index, array) => {
+  return condition; // true only if all elements pass
+});
+
+
+includes()
+
+const exists = array.includes(searchElement, fromIndex);
+
 
 # 📎 Resources & Links
 
