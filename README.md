@@ -29,62 +29,98 @@ LinkedIn Post → A short daily reflection to document progress
 
 This section shows the syntax for each method I’ve covered so far. I’ll keep updating it as I explore more.
 
- forEach()
+## forEach()
 array.forEach((element, index, array) => {
   // action to perform on each element
 });
 
- map()
+## map()
 const newArray = array.map((element, index, array) => {
   // logic here
   return transformedElement;
 });
 
- filter()
+## filter()
 const filteredArray = array.filter((element, index, array) => {
   return condition; // true to keep the element
 });
 
- concat()
+## concat()
 const mergedArray = array1.concat(array2, value1, value2 /* ...more */);
 
- find()
+## find()
 const foundElement = array.find((element, index, array) => {
   return condition;
 });
 
- findIndex()
+## findIndex()
 const index = array.findIndex((element, index, array) => {
   return condition;
 });
 
-indexOf()
+## indexOf()
 
 const position = array.indexOf(searchElement, fromIndex);
 
 
-lastIndexOf()
+## lastIndexOf()
 
 const position = array.lastIndexOf(searchElement, fromIndex);
 
 
-some()
+## some()
 
 const hasMatch = array.some((element, index, array) => {
   return condition; // true if at least one element passes
 });
 
 
-every()
+## every()
 
 const allMatch = array.every((element, index, array) => {
   return condition; // true only if all elements pass
 });
 
 
-includes()
+## includes()
 
 const exists = array.includes(searchElement, fromIndex);
+
+## push()
+
+const newLength = array.push(element1, element2, /* ...more */);
+// element → the item(s) to add to the END of the array
+// returns the new length of the array
+
+
+## unshift()
+
+const newLength = array.unshift(element1, element2, /* ...more */);
+// element → the item(s) to add to the BEGINNING of the array
+// returns the new length of the array
+
+
+## pop()
+
+const removedElement = array.pop();
+// removes the LAST element of the array
+// returns the removed element
+
+
+## shift()
+
+const removedElement = array.shift();
+// removes the FIRST element of the array
+// returns the removed element
+
+
+## splice()
+
+const removedElements = array.splice(startIndex, deleteCount, item1, item2, /* ...more */);
+// startIndex → where to start changing the array
+// deleteCount → how many items to remove
+// item(s) → optional, items to add in place
+// returns an array of removed elements
 
 
 # 📎 Resources & Links
