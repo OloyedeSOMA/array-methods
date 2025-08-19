@@ -122,6 +122,54 @@ const removedElements = array.splice(startIndex, deleteCount, item1, item2, /* .
 // item(s) → optional, items to add in place
 // returns an array of removed elements
 
+## join()
+
+const str = array.join(separator);
+// separator → optional string to separate elements (default is ",")
+
+
+## slice()
+
+const newArray = array.slice(start, end);
+// start → index to begin extraction (inclusive)
+// end → index to stop extraction (exclusive, optional)
+
+
+## sort()
+
+array.sort(compareFunction);
+// compareFunction → optional function to define custom sort order
+// Default: sorts as strings in ascending Unicode order
+
+
+## toSorted()
+
+const newArray = array.toSorted(compareFunction);
+// compareFunction → optional function for custom sort
+// Returns a new sorted array (original unchanged)
+
+
+## reverse()
+
+array.reverse();
+// Reverses array elements in place
+
+
+## toReversed()
+
+const newArray = array.toReversed();
+// Returns a new reversed array (original unchanged)
+
+
+## keys()
+
+const iterator = array.keys();
+// Returns an iterator with the array’s keys (indexes)
+
+for (const key of array.keys()) {
+  console.log(key); // logs 0, 1, 2, ...
+}
+
 
 # 📎 Resources & Links
 
