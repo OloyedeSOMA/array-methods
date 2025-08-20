@@ -170,6 +170,52 @@ for (const key of array.keys()) {
   console.log(key); // logs 0, 1, 2, ...
 }
 
+## from()
+
+const newArray = Array.from(arrayLike, mapFn, thisArg);
+// arrayLike → array-like or iterable object (e.g., string, NodeList, Set)
+// mapFn → optional, function to map each element
+// thisArg → optional, value to use as "this" when executing mapFn
+
+
+## isArray()
+
+const result = Array.isArray(value);
+// value → the item to check
+// returns true if value is an array, false otherwise
+
+
+## flat()
+
+const newArray = array.flat(depth);
+// depth → optional, how deep to flatten (default is 1)
+
+
+## flatMap()
+
+const newArray = array.flatMap((element, index, array) => {
+  return transformedArrayOrValue;
+});
+// Performs map + flatten (only depth 1)
+
+
+## reduce()
+
+const result = array.reduce((accumulator, currentValue, index, array) => {
+  return updatedAccumulator;
+}, initialValue);
+// accumulator → carries result between iterations
+// currentValue → current element being processed
+// initialValue → optional starting value
+
+
+## reduceRight()
+
+const result = array.reduceRight((accumulator, currentValue, index, array) => {
+  return updatedAccumulator;
+}, initialValue);
+// Same as reduce but works from right to left
+
 
 # 📎 Resources & Links
 
