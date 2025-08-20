@@ -1,4 +1,4 @@
-## Day 3 – JavaScript Array Methods
+## Day 4 – JavaScript Array Methods
 Methods Covered
 
 join()
